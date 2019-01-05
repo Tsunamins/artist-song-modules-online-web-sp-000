@@ -36,6 +36,7 @@ class Song
     @artist = artist
   end
 
+  #replaced in paramable.rb
   # def to_param
   #   name.downcase.gsub(' ', '-')
   # end
