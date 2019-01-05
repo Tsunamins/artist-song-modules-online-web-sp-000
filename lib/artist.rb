@@ -20,7 +20,8 @@ class Artist
   def self.all
     @@artists
   end
-
+  
+  #replaced in memorable.rb as is
   # def self.reset_all
   #   self.all.clear
   # end
