@@ -41,7 +41,8 @@ class Artist
   def add_songs(songs)
     songs.each { |song| add_song(song) }
   end
-
+  
+  #replaced in paramable.rb
   # def to_param
   #   name.downcase.gsub(' ', '-')
   # end
