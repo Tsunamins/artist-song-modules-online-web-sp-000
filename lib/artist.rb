@@ -13,6 +13,7 @@ class Artist
     @songs = []
   end
 
+  #replaced in findable.rb with one modification
   # def self.find_by_name(name)
   #   @@artists.detect{|a| a.name == name}
   # end
